@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Skin Disorders</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+  <div id="header">
+    <div class="header">
+      <!-- <div class="row"> -->
+      <div class="col-lg">
+        <p class="text-sm-left">
+          <h3>'iSkin'</h3>
+          <li>Wenke Dahl</li>
+          <li>Arvinder Singh</li>
+          <li>Gordon Thomson</li>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <h1 class="description.header">
+      iSkin
+    </h1>
+    <hr class="description-hr" />
+    <h2>
+      Skin imaging and Disease Detection Project
+    </h2>
+    <p>
+      Our objective was to creating an interactive app to detect potential skin diseases based on user uploaded images.
+    </p>
+    <p>
+        Skin disorders vary greatly in symptoms and severity. They can be temporary or permanent, and may be painless or painful. Some have situational causes, while others may be genetic. Some skin conditions are minor, and others can be life-threatening.
+        While most skin disorders are minor, others can indicate a more serious issue. Contact your doctor if you think you might have one of these common skin problems.
+    </p>
+  </div>
+  <div class="col-md-2">
+    <div class="col-right">
+      <h1>Find more research</h1>
+      <div class="section" id="sidebar-top">
+        <div class="widget HTML" data-version="1" id="HTML8">
+          <div class="widget-content">
+            <div class="searchBox">
+              <input type="text" title="Search Google" placeholder="Search Google ...">
+            </div>
+          </div>
+          <div class="clear"></div>
+          <span class="widget-item-control">
+            <span class="item-control blog-admin">
+              <a class="quickedit" href="//www.blogger.com/rearrange?blogID=8474926331452026626&amp;widgetType=HTML&amp;widgetId=HTML8&amp;action=editWidget&amp;sectionId=sidebar-top"
+                onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML8&quot;));" rel="nofollow"
+                target="configHTML8" title="Edit">
+                <img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+              </a>
+            </span>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div class="container">
+      <div class="jumbotron text-center">
+        <title>Upload new File</title>
+        <h2>Do you have a blemish of your own?</h2>
+        <h2>Upload a picture of your own skin disorder</h2>
+        <form method=post enctype=multipart/form-data> <p><input type=file name=file>
+          <input type=submit value=Upload>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Upload Result -->
+  <div class="container"></div>
+  <div class="row" id="Upload Result">
+    <div class="col-md-6">
+      <h3 class="imageNav-header">
+        Result
+      </h3>
+    </div>
+    <div class="col-md-6">
+      <h4 class="heading">{{listings.price}} {{listings.headline}}</h4>
+      <small>{{listings.hood}}</small>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4 class="imageNav-header">
+          Skin Disorders By Age
+        </h4>
+        <p>
+          The below graph shows...
+        </p>
+        <div id="images">
+          <a href="age.html">
+            <img src="ImageFolder/age.png" alt="Skin Disease by Age" class="imageNav-photo">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4 class="imageNav-header">
+          Skin Disorders By Ethnicity
+        </h4>
+        <p>
+          The below graph shows...
+        </p>
+        <div id="images">
+          <a href="ethnicity.html">
+            <img src="ImageFolder/ethnicity.png" alt="Skin Disease by Ethnicity" class="imageNav-photo">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4 class="imageNav-header">
+          Skin Disorders By Gender
+        </h4>
+        <p>
+          The below graph shows...
+        </p>
+        <div id="images">
+          <a href="age.html">
+            <img src="ImageFolder/age.png" alt="Skin Disease by Gender" class="imageNav-photo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<footer class="footer navbar-fixed-bottom">
+  <div class="two-toned-footer-color"></div>
+  <p class="text-muted text-muted-footer text-center">
+    &copy; Copyright Coding Bootcamp 2018:
+    Wenke Dahl, Arvinder Singh, & Gordon Thomson
+  </p>
+</footer>
+</html>
